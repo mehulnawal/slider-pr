@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array store and display</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="p-3">
+    <!-- <input type="text" id="menuItem" /><button onclick="return addItem()">Add</button>
+    <div id="test"></div>
+    <script>
+        var menu = ["Burget", "Pizza", "Frankie", "Sanwich"];
+        showData();
+        function showData() {
+            var htmlStu = "<div >";
+            menu.forEach((v, i) => {
+                // htmlStu += "<div>" + v + "</div>"
+                htmlStu += `<div style="background-color:cyan; border:1px solid black; margin-top:2px">${v} <button onclick="return deleteItem(${i})">X</button></div>`;
+            })
+            htmlStu += '</div>'
+            document.getElementById('test').innerHTML = htmlStu;
+        }
+        function addItem() {
+            var item = document.getElementById('menuItem').value;
+            console.log(item)
+            menu.push(item);
+            showData();
+            document.getElementById('menuItem').value = '';
+        }
+        function deleteItem(pos) {
+            menu.splice(pos, 1);
+            console.log(menu);
+            showData();
+        }
+    </script> -->
+
+    <input type="text" name="name" id="name">
+    <button type="submit" id="submitBtn">Enter</button>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
