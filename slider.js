@@ -31,7 +31,7 @@ next.addEventListener("click", function () {
     else if (i == 4) {
         h1Text.innerText = "John Wick"
     }
-    else if (i == 4) {
+    else if (i == 5) {
         h1Text.innerText = "Thor"
     }
     img1.src = images[i];
@@ -42,6 +42,25 @@ prev.addEventListener("click", function () {
     if (i < 0) {
         i = images.length - 1;
     }
-    img1.style.backgroundImage = images[i];
+
+    if (i == 0) {
+        h1Text.innerText = "Captain America"
+    }
+    else if (i == 1) {
+        h1Text.innerText = "Micheal B. Jordan"
+    }
+    else if (i == 2) {
+        h1Text.innerText = "Batman"
+    }
+    else if (i == 3) {
+        h1Text.innerText = "jeet Selal"
+    }
+    else if (i == 4) {
+        h1Text.innerText = "John Wick"
+    }
+    else if (i == 5) {
+        h1Text.innerText = "Thor"
+    }
+    img1.src = images[i];
 });
 
